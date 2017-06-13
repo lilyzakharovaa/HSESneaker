@@ -1,5 +1,3 @@
-<p id="notice"><%= notice %></p>
-
 <h1>Sneakers</h1>
 
 <table>
@@ -16,7 +14,7 @@
   <tbody>
     <% @sneakers.each do |sneaker| %>
       <tr>
-        <td><%= sneaker.brand.name %></td>
+        <td><%= sneaker.brand_id %></td>
         <td><%= sneaker.model %></td>
         <td><%= sneaker.sex %></td>
         <td><%= sneaker.price %></td>
